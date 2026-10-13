@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Кадр — билеты в кино · Telegram Mini App</title>
+    <meta name="description" content="Telegram Mini App для покупки билетов в кино: афиша, сеансы, схема зала, оплата и билет с QR-кодом." />
+    <meta name="theme-color" content="#07070b" />
+    <meta property="og:title" content="Кадр — билеты в кино · Telegram Mini App" />
+    <meta property="og:description" content="Афиша, схема зала, оплата и билет с QR-кодом — прямо в Telegram." />
+    <meta property="og:image" content="https://cdduke.github.io/kadr-miniapp/og.png" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <!-- Telegram SDK: must run before the app; outside Telegram it reports platform "unknown" -->
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@600;700;800&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
